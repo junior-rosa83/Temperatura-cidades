@@ -45,28 +45,28 @@ function createRow(dados) {
     </div> 
     <div class="quadrados" id="quadrado0">
       <div class="quadrado">
-        <img src="/img/Humidity.png" alt="">
+        <img src="img/Humidity.png" alt="">
         <div class="ajusteQuadrado"> 
           <P>Umidade</P>
           <span class="umidade">${dados.main.humidity}%</span> 
         </div>    
       </div>
       <div class="quadrado" id="quadrado1">
-        <img src="/img/vento.png" alt="">
+        <img src="img/vento.png" alt="">
         <div class="ajusteQuadrado"> 
           <P>Vento</P>
           <span class="">${dados.wind.speed.toFixed(1)}Km</span> 
         </div>    
       </div>  
       <div class="quadrado" id="quadrado2">
-        <img src="/img/quente.png" alt="">
+        <img src="img/quente.png" alt="">
         <div class="ajusteQuadrado"> 
           <P>Temp Máx</P>
           <span class="tempMax">${dados.main.temp_max.toFixed(1)}°C</span> 
         </div>    
       </div>  
       <div class="quadrado" id="quadrado3">
-        <img src="/img/frio.png" alt="">
+        <img src="img/frio.png" alt="">
         <div class="ajusteQuadrado"> 
           <P>Temp Min</P>
           <span class="tempMin">${dados.main.temp_min.toFixed(1)}°C</span> 
